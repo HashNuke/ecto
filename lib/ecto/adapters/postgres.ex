@@ -13,13 +13,13 @@ defmodule Ecto.Adapters.Postgres do
 
   @default_port 5432
 
-  alias Ecto.Adapters.Postgres.SQL
-  alias Ecto.Adapters.Postgres.Worker
-  alias Ecto.Associations.Assoc
-  alias Ecto.Query.Query
-  alias Ecto.Query.QueryExpr
-  alias Ecto.Query.Util
-  alias Postgrex.TypeInfo
+  alias! Ecto.Adapters.Postgres.SQL
+  alias! Ecto.Adapters.Postgres.Worker
+  alias! Ecto.Associations.Assoc
+  alias! Ecto.Query.Query
+  alias! Ecto.Query.QueryExpr
+  alias! Ecto.Query.Util
+  alias! Postgrex.TypeInfo
 
   ## Adapter API
 
